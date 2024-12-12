@@ -1,0 +1,17 @@
+{
+  "name": "signtypeddata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrate-airdrop": "node --env-file=.env migrate-airdrop.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ethers": "^5.7.2"
+  },
+  "type": "module"
+}
